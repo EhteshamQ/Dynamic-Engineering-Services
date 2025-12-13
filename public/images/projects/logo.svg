@@ -1,0 +1,55 @@
+<svg
+  width="320"
+  height="64"
+  viewBox="0 0 320 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Icon background -->
+  <rect
+    x="0"
+    y="4"
+    width="56"
+    height="56"
+    rx="10"
+    fill="#0B1F33"
+  />
+
+  <!-- Inner D (OPTICALLY centered) -->
+  <path
+    d="M18 17.5H30C36.627 17.5 42 22.873 42 29.5C42 36.127 36.627 41.5 30 41.5H18V17.5Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Engineering lines -->
+  <rect x="22" y="21.5" width="12" height="2" fill="#0B1F33" />
+  <rect x="22" y="28.5" width="12" height="2" fill="#0B1F33" />
+  <rect x="22" y="35.5" width="12" height="2" fill="#0B1F33" />
+
+  <!-- Text group (true vertical center) -->
+  <g transform="translate(72, 32)">
+    <text
+      x="0"
+      y="0"
+      font-family="Inter, Arial, sans-serif"
+      font-size="20"
+      font-weight="700"
+      fill="#FFFFFF"
+      dominant-baseline="central"
+    >
+      DYNAMIC
+    </text>
+
+    <text
+      x="0"
+      y="16"
+      font-family="Inter, Arial, sans-serif"
+      font-size="12"
+      font-weight="500"
+      letter-spacing="1"
+      fill="#D1D5DB"
+    >
+      ENGINEERING SERVICES
+    </text>
+  </g>
+</svg>
