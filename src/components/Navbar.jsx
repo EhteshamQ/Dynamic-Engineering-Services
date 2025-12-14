@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 const navItems = [
@@ -11,16 +11,17 @@ const navItems = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const naviagate = useNavigate();
 
   return (
     <nav className="bg-primary text-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <img
-          src="/images/projects/logo.svg"
+          src="/Dynamic-Engineering-Services/images/projects/logo.svg"
           alt="Dynamic Engineering Services"
           className="h-10 w-auto hover:cursor-pointer"
-          onClick={() => (window.location.href = "/")}
+          onClick={() => naviagate("/")}
         />
 
         {/* Desktop Menu */}
