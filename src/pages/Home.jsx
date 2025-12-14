@@ -1,7 +1,9 @@
 import { projects } from "../data/projects";
 import AnimateIn from "../components/AnimateIn";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
   return (
     <div>
       {/* HERO */}
@@ -21,18 +23,18 @@ export default function Home() {
           </AnimateIn>
           <AnimateIn delay={0.2}>
             <div className="mt-10 flex gap-4">
-              <a
-                href="/projects"
+              <Link
+                to="/projects"
                 className="bg-accent text-black px-6 py-3 rounded font-semibold"
               >
                 View Projects
-              </a>
-              <a
-                href="/contact"
+              </Link>
+              <Link
+                to="/contact"
                 className="border border-white px-6 py-3 rounded"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </AnimateIn>
         </div>
@@ -65,7 +67,7 @@ export default function Home() {
               <div
                 key={p.id}
                 className="bg-white rounded-xl shadow hover:shadow-xl transition"
-                onClick={() => (window.location.href = `/projects/${p.id}`)}
+                onClick={() => navigate(`/projects/${p.id}`)}
               >
                 <img
                   src={p.images?.[0]}
@@ -89,12 +91,12 @@ export default function Home() {
         <p className="text-gray-300 mb-10">
           Get in touch with our engineering team today.
         </p>
-        <a
+        <Link
           href="/contact"
           className="bg-accent text-black px-8 py-4 rounded font-semibold"
         >
           Contact Us!
-        </a>
+        </Link>
       </section>
     </div>
   );
