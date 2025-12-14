@@ -89,7 +89,7 @@ export default function About() {
           project.
         </p>
         <a
-          href="/contact"
+          href="#/contact"
           className="bg-accent text-black px-8 py-4 rounded font-semibold"
         >
           Contact Us

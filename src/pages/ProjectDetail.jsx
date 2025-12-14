@@ -86,7 +86,7 @@ export default function ProjectDetail() {
           Contact Us to discuss your requirements.
         </p>
         <a
-          href="/contact"
+          href="#/contact"
           className="bg-primary text-white px-8 py-4 rounded font-semibold"
         >
           Contact Us

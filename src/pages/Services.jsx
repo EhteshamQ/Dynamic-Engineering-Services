@@ -42,7 +42,7 @@ export default function Services() {
           Contact our team to discuss your project requirements.
         </p>
         <a
-          href="/contact"
+          href="#/contact"
           className="bg-primary text-white px-8 py-4 rounded font-semibold"
         >
           Get in Touch

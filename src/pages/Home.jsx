@@ -92,7 +92,7 @@ export default function Home() {
           Get in touch with our engineering team today.
         </p>
         <Link
-          href="/contact"
+          to="/contact"
           className="bg-accent text-black px-8 py-4 rounded font-semibold"
         >
           Contact Us!
