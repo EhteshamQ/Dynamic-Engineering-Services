@@ -7,8 +7,9 @@ export const projects = [
     scope:
       "Preparation of structural and MEP shop drawings for load centers, fuel farm, nursery facilities, transportation center, APM station, APM tunnel, and terminal buildings.",
     images: [
-      "/Dynamic-Engineering-Services/images/projects/abdul-aziz-1.JPG",
-      "/Dynamic-Engineering-Services/images/projects/abdull-aziz-2.JPG",
+      "/Dynamic-Engineering-Services/images/projects/abdul-aziz-1.jpg",
+      "/Dynamic-Engineering-Services/images/projects/abdul-aziz-2.jpg",
+      "/Dynamic-Engineering-Services/images/projects/abdul-aziz-3.jpg",
     ],
   },
 
@@ -20,8 +21,9 @@ export const projects = [
     scope:
       "Preparation of structural and MEP shop drawings for railway stations, canopies, tunnels, and external networks including storm water, fire, and irrigation systems.",
     images: [
-      "/Dynamic-Engineering-Services/images/projects/high%20speed%20makkah%20rail-1.JPG",
-      "/Dynamic-Engineering-Services/images/projects/high%20speed%20makkah%20rail%202.JPG",
+      "/Dynamic-Engineering-Services/images/projects/harmain-high-speed-rail-1.jpg",
+      "/Dynamic-Engineering-Services/images/projects/harmain-high-speed-rail-2.jpg",
+      "/Dynamic-Engineering-Services/images/projects/harmain-high-speed-rail-3.jpg",
     ],
   },
 
@@ -33,8 +35,10 @@ export const projects = [
     scope:
       "Preparation of structural shop drawings and design coordination works for university buildings and associated facilities.",
     images: [
-      "/Dynamic-Engineering-Services/images/projects/king%20abdullah%20university-1.JPG",
-      "/Dynamic-Engineering-Services/images/projects/king%20abdullah%20uni%20-%202.JPG",
+      "/Dynamic-Engineering-Services/images/projects/kaust-1.jpg",
+      "/Dynamic-Engineering-Services/images/projects/kaust-2.jpg",
+      "/Dynamic-Engineering-Services/images/projects/kaust-3.jpg",
+      "/Dynamic-Engineering-Services/images/projects/kaust-4.jpg",
     ],
   },
 
@@ -131,10 +135,10 @@ export const projects = [
     scope:
       "Preparation of shop drawings for expressway works including culverts, drainage structures, earthworks, and road infrastructure.",
     images: [
-      "/Dynamic-Engineering-Services/images/projects/qassim%20madina%20expressway%201.JPG",
-      "/Dynamic-Engineering-Services/images/projects/qassim%20madina%20expressway%202.JPG",
+      "/Dynamic-Engineering-Services/images/projects/qassim-madina-expressway.jpeg",
       "/Dynamic-Engineering-Services/images/projects/qassim%20madina%20expressway%203.JPG",
-      "/Dynamic-Engineering-Services/images/projects/qassim%20madina%20expressway%204.JPG",
+      "/Dynamic-Engineering-Services/images/projects/qassim-madina-expressway-1.jpeg",
+      "/Dynamic-Engineering-Services/images/projects/qassim-madina-expressway-2.jpeg",
       "/Dynamic-Engineering-Services/images/projects/qassim%20madina%20expressway%206.JPG",
     ],
   },
@@ -147,8 +151,8 @@ export const projects = [
     scope:
       "Structural design and preparation of RCC shop drawings for villa development.",
     images: [
-      "/Dynamic-Engineering-Services/images/projects/prince%20abdullah%20villas.JPG",
-      "/Dynamic-Engineering-Services/images/projects/prince%20abdullah%20villas.%202.JPG",
+      "/Dynamic-Engineering-Services/images/projects/prince-villas.jpg",
+      "/Dynamic-Engineering-Services/images/projects/prince-villas-1.jpg",
     ],
   },
 ];
