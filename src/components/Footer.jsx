@@ -19,10 +19,10 @@ export default function Footer() {
           <ul className="space-y-3 text-sm text-gray-700">
             <li>
               <a
-                href="mailto:contact@dynamicengg.com"
+                href="mailto:ashwaqkk@yahoo.com"
                 className="hover:underline"
               >
-                contact@dynamicengg.com
+                ashwaqkk@yahoo.com
               </a>
             </li>
             <li>
@@ -30,7 +30,10 @@ export default function Footer() {
                 +91 8978612076
               </a>
             </li>
-            <li>Hyderabad, India</li>
+            <li>
+              8-1-402/266 Gulshan Colony,<br />
+              Shaikpet Tolichowki Hyderabad - 500008
+            </li>
           </ul>
         </div>
 
