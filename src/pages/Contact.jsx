@@ -57,23 +57,34 @@ export default function Contact() {
 
         {/* CONTACT INFO */}
         <AnimateIn delay={0.15}>
-          <div className="space-y-8">
+          <div className="space-y-12">
             <div>
-              <h3 className="text-xl font-bold mb-2">Office – Saudi Arabia</h3>
-              <p>P.O. Box 6875, Arbayeen Street</p>
-              <p>Jeddah 21542, KSA</p>
-              <p className="mt-2">📞 +966 50 283 5630</p>
+              <h2 className="text-3xl font-bold mb-10 text-primary text-center md:text-left">Our Presence</h2>
+              
+              <div className="flex flex-col items-center text-center">
+                <img 
+                  src={`${import.meta.env.BASE_URL}images/projects/Contact_us_india.jpg`} 
+                  alt="India Skyline" 
+                  className="w-full max-w-sm h-auto object-contain mb-6"
+                />
+                <h3 className="text-xl font-bold mb-4 text-primary">Office – India</h3>
+                <div className="text-gray-700 space-y-1 text-lg">
+                  <p>8-1-402/266 Gulshan Colony</p>
+                  <p>Shaikpet Tolichowki Hyderabad - 500008</p>
+                  <p className="pt-3 font-medium text-gray-900">
+                    📞 +91 8978612076
+                  </p>
+                </div>
+              </div>
             </div>
 
-            <div>
-              <h3 className="text-xl font-bold mb-2">Office – India</h3>
-              <p>8-1-364/1&2, Deluxe Colony</p>
-              <p>Tolichowki, Hyderabad</p>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-bold mb-2">Email</h3>
-              <p>ashwaqkk@yahoo.com</p>
+            <div className="flex flex-col items-center text-center mt-12 pt-8 border-t border-gray-200">
+              <h3 className="text-xl font-bold mb-2 text-primary">Email</h3>
+              <p className="text-gray-600 font-medium text-lg">
+                <a href="mailto:ashwaqkk@yahoo.com" className="hover:text-accent transition-colors">
+                  ashwaqkk@yahoo.com
+                </a>
+              </p>
             </div>
           </div>
         </AnimateIn>
