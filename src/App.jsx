@@ -8,12 +8,14 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 import Splash from "./components/Splash";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <>
       <Splash />
       <HashRouter>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
