@@ -26,11 +26,10 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="tel:+966502835630" className="hover:underline">
-                +966 50 283 5630
+              <a href="tel:+918978612076" className="hover:underline">
+                +91 8978612076
               </a>
             </li>
-            <li>Jeddah, Saudi Arabia</li>
             <li>Hyderabad, India</li>
           </ul>
         </div>
